@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "alias": [
+    "jwl.st"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://jameswlane.com/$1"
+      }
+    }
+  ]
+}
